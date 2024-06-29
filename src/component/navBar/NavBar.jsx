@@ -21,7 +21,7 @@ const NavBar = () => {
       <div className="right">
         {user ? (
           <div className="user">
-            <img src="" alt="" />
+            <img src="/noavatar.jpg" alt="" />
             <span>kirubha</span>
             <Link to="/profile" className="profile">
               <div className="notification">3</div>
